@@ -12,5 +12,7 @@ state_of_america[1] = "Mumbai"
 
 state_of_america.append("Prakashland")
 
+state_of_america.extend(["Dombivali","Grant road","Churge Gate","bhayander"])
+
 print(state_of_america)
 
