@@ -6,3 +6,9 @@ print(state_of_america[0])
 
 # print last Name of city
 print(state_of_america[-1])
+
+# change The City Name (Rename)
+state_of_america[1] = "Mumbai"
+
+print(state_of_america)
+
