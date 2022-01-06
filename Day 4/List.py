@@ -10,5 +10,7 @@ print(state_of_america[-1])
 # change The City Name (Rename)
 state_of_america[1] = "Mumbai"
 
+state_of_america.append("Prakashland")
+
 print(state_of_america)
 
