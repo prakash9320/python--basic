@@ -16,5 +16,13 @@ password = ""
 
 for char in range(1,nr_letters + 1):
     password += random.choice(letter)
-print(password) 
-  
+
+
+for char in range(1,nr_symbol + 1):
+ password +=random.choice(symbol)
+ 
+
+for char in range(1,nr_number):
+ password += random.choice(number)
+
+print(password)  
