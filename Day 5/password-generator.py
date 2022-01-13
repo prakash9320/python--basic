@@ -12,17 +12,26 @@ nr_symbol = int(input("How Many Symbol Would You  Like : \n"))
 nr_number = int(input("How Many Number Would You Like :\n"))
 
 # Eazy Level
-password = ""
+password_list = []
 
 for char in range(1,nr_letters + 1):
-    password += random.choice(letter)
+    password_list.append(random.choice(letter))
 
 
 for char in range(1,nr_symbol + 1):
- password +=random.choice(symbol)
+ password_list +=random.choice(symbol)
  
 
 for char in range(1,nr_number):
- password += random.choice(number)
+ password_list += random.choice(number)
 
-print(password)  
+print(password_list) 
+random.shuffle(password_list)
+print(password_list)
+
+
+
+password = ""
+for char in password_list:
+ password += char
+print('Your Password is :'+password)
