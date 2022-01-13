@@ -14,6 +14,17 @@
 #  jump()
 #  number_of_hurdles -=1
 #  print(number_of_hurdles)
+ 
 
+#  not meas not equal
 # while not at_goal():
 #     jump()
+
+
+
+#   while loop in if statement
+# while not at_goal():
+#     if wall_in_front():
+#         jump()
+#     else :
+#         move()    
