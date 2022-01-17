@@ -7,11 +7,16 @@ work_list = ["ardvark","baboon","camel"]
 
 chosen_word = random.choice(work_list)
  # Testing Code
-print("passt , the solution  is :"+ chosen_word)
+print("pas st , the solution  is :"+ chosen_word)
 
 # TODO-2 Aske the user to guess the letter and assign thair
 #      answer to variable called guess .Make guess 
 #      lowercase 
+
+display = []
+for _ in range(len(chosen_word)):
+   display += "_"
+   print(display)
 guess = input("Enter a word")
 print(guess)
 # TODO-3 CHECK IF THE LATTER THE USER GUESSESD  (GUESSE)
